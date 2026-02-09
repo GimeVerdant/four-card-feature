@@ -52,7 +52,7 @@ main {
 
 .intro {
   max-width: 54rem;
-  margin: 0 auto 60px;
+  margin: 0 auto 6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,7 +63,7 @@ main {
   font-weight: var(--fw-extra-light);
   font-size: 2.4rem;
   line-height: 140%;
-  letter-spacing: 0.25px;
+  letter-spacing: 0.025rem;
   margin-bottom: 0;
   text-align: center;
 }
@@ -72,7 +72,7 @@ main {
   font-weight: var(--fw-semi-bold);
   font-size: 2.4rem;
   line-height: 140%;
-  letter-spacing: 0.25px;
+  letter-spacing: 0.025rem;
   margin-top: 0;
   text-align: center;
 }
@@ -115,11 +115,11 @@ main {
 
 .feature-card {
   background-color: var(--white);
-  border-radius: 8px;
-  box-shadow: 0px 4px 8px rgba(131, 166, 210, 50%);
+  border-radius: 0.8rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(131, 166, 210, 50%);
   padding: 3.2rem;
-  width: 314px;
-  min-height: 250px;
+  width: 31.4rem;
+  min-height: 25rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -133,19 +133,19 @@ main {
 
 
 .first {
-    border-top: var(--red) 4px solid;
+    border-top: var(--red) 0.4rem solid;
 }
 
 .second {
-    border-top: var(--cyan) 4px solid;
+    border-top: var(--cyan) 0.4rem solid;
 }
 
 .third {
-    border-top: var(--orange) 4px solid;
+    border-top: var(--orange) 0.4rem solid;
 }
 
 .fourth {
-    border-top: var(--blue) 4px solid;
+    border-top: var(--blue) 0.4rem solid;
 }
 
 /* ==================== */
@@ -153,32 +153,24 @@ main {
 /* ==================== */
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 76.8rem) { /*768px/10=76.8 */
 
   main {
     padding: 4.8rem;
   }
 
-  .feature-container {
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 2.4rem;
-  }
-    
-
-
 .title {
   font-weight: var(--fw-semi-bold);
   font-size: 3.6rem;
   line-height: 140%;
-  letter-spacing: 0.25px;
+  letter-spacing: 0.025rem;
 }
 
 .subtitle {
   font-weight: var(--fw-extra-light);
   font-size: 3.6rem;
   line-height: 140%;
-  letter-spacing: 0.25px;
+  letter-spacing: 0.025rem;
 
 }
 
@@ -186,10 +178,10 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 30px;
-  max-width: 1200px;
+  gap: 3rem;
+  max-width: 120rem;
   margin: 0 auto;
-  padding: 40px;
+  padding: 4rem;
 }
 
 /* Left card - spans 2 rows, vertically centered */
