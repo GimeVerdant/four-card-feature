@@ -33,11 +33,15 @@ body {
   background-color: var(--grey-100);
   color: var(--grey-500);
   min-height: 100vh;
- 
+  padding: 3.2rem;
+  
 }
 
 main {
-    padding: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
 }
 
 
@@ -87,6 +91,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-width: 31.4rem;
   gap: 3.2rem;
 
 }
@@ -146,7 +151,10 @@ main {
 /* ==================== */
 /*  Tablet and up     */
 /* ==================== */
+
+
 @media screen and (min-width: 768px) {
+
   main {
     padding: 4.8rem;
   }
@@ -154,7 +162,6 @@ main {
   .feature-container {
     flex-direction: row;
     justify-content: space-between;
-    padding: 3.2rem;
     gap: 2.4rem;
   }
     
