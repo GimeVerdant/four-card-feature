@@ -132,19 +132,19 @@ main {
 }
 
 
-#first {
+.first {
     border-top: var(--red) 4px solid;
 }
 
-#second {
+.second {
     border-top: var(--cyan) 4px solid;
 }
 
-#third {
+.third {
     border-top: var(--orange) 4px solid;
 }
 
-#fourth {
+.fourth {
     border-top: var(--blue) 4px solid;
 }
 
@@ -193,26 +193,26 @@ main {
 }
 
 /* Left card - spans 2 rows, vertically centered */
-#first {
+.first {
   grid-column: 1;
   grid-row: 1 / 3;
   align-self: center;
 }
 
 /* Middle top card */
-#second {
+.second {
   grid-column: 2;
   grid-row: 1;
 }
 
 /* Middle bottom card */
-#third {
+.third {
   grid-column: 2;
   grid-row: 2;
 }
 
 /* Right card - spans 2 rows, vertically centered */
-#fourth {
+.fourth {
   grid-column: 3;
   grid-row: 1 / 3;
   align-self: center;

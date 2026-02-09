@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/GimeVerdant/four-card-feature](https://your-solution-url.com)
-- Live Site URL: [https://gimeverdant.github.io/four-card-feature/](https://your-live-site-url.com)
+- Solution URL: [https://github.com/GimeVerdant/four-card-feature]
+- Live Site URL: [https://gimeverdant.github.io/four-card-feature/]
 
 ## My process
 
