@@ -12,6 +12,8 @@
   --fw-medium: 500;
   --fw-regular: 400;
   --fw-extra-light: 100;
+
+  --shadow-primary: 0 0.4rem 0.8rem rgba(131, 166, 210, 0.5);
 }
 
 /* ==================== */
@@ -116,7 +118,7 @@ main {
 .feature-card {
   background-color: var(--white);
   border-radius: 0.8rem;
-  box-shadow: 0 0.4rem 0.8rem rgba(131, 166, 210, 50%);
+  box-shadow: var(--shadow-primary);
   padding: 3.2rem;
   width: 31.4rem;
   min-height: 25rem;
@@ -133,11 +135,11 @@ main {
 
 
 .first {
-    border-top: var(--red) 0.4rem solid;
+    border-top: var(--cyan) 0.4rem solid;
 }
 
 .second {
-    border-top: var(--cyan) 0.4rem solid;
+    border-top: var(--red) 0.4rem solid;
 }
 
 .third {
